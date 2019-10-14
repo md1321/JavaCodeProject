@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivityFragment">
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Distance"
+        android:id="@+id/distancebutton"
+        android:onClick="convDistance"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="79dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Area"
+        android:id="@+id/areabutton"
+        android:onClick="convArea"
+        android:layout_below="@+id/distancebutton"
+        android:layout_alignStart="@+id/distancebutton"
+        android:layout_alignEnd="@+id/distancebutton" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fluid"
+        android:id="@+id/fluidbutton"
+        android:onClick="convFluid"
+        android:layout_below="@+id/currency"
+        android:layout_alignStart="@+id/currency"
+        android:layout_alignEnd="@+id/distancebutton" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Currency"
+        android:id="@+id/currency"
+        android:onClick="convCurrency"
+        android:layout_below="@+id/areabutton"
+        android:layout_alignStart="@+id/areabutton" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Weight"
+        android:id="@+id/weight"
+        android:onClick="convWeight"
+        android:layout_below="@+id/fluidbutton"
+        android:layout_alignStart="@+id/fluidbutton"
+        android:layout_alignEnd="@+id/distancebutton" />
+</RelativeLayout>

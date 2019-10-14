@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Converter</string>
+    <string name="areacoverter">Area Converter</string>
+    <string name="distancecoverter">Distance Converter</string>
+    <string name="weightcoverter">Weight Converter</string>
+    <string name="currencycoverter">Currency Converter</string>
+    <string name="fluidcoverter">Fluid Converter</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_distance">Distance</string>
+    <string name="miles">Miles</string>
+    <string name="kilometers">Kilometers</string>
+    <string name="sqfeet">Square Feet</string>
+    <string name="sqmeters">Square Meters</string>
+    <string name="euros">Euros</string>
+    <string name="dollars">Dollars</string>
+    <string name="pounds">Pounds</string>
+    <string name="kilograms">Kilograms</string>
+    <string name="floz">Fluid Ounces</string>
+    <string name="liters">Liters</string>
+    <string name="button_send">Send</string>
+    <string name="title_activity_area">Area</string>
+    <string name="title_activity_currency">Currency</string>
+    <string name="title_activity_fluids">Fluids</string>
+    <string name="title_activity_weight">Weight</string>
+</resources>
